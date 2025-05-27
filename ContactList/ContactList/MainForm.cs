@@ -19,8 +19,7 @@ namespace ContactList
 
         private void btnThemLienHe_Click(object sender, EventArgs e)
         {
-            //AddContactForm form = new AddContactForm();
-            //form.ShowDialog();
+          
         }
     }
 }
