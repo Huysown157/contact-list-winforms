@@ -31,11 +31,16 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
+ feature/modify-form
+            this.label1 = new System.Windows.Forms.Label();
+
+            this.txtEmail = new System.Windows.Forms.TextBox();
+main
             this.SuspendLayout();
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(223, 166);
+            this.btnLuu.Location = new System.Drawing.Point(223, 201);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(46, 32);
             this.btnLuu.TabIndex = 0;
@@ -58,11 +63,35 @@
             this.txtSoDienThoai.TabIndex = 2;
             this.txtSoDienThoai.Text = "So Dien Thoai";
             // 
+ feature/modify-form
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(220, 70);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 16);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Thong Tin Bo Sung";
+
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(223, 173);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 3;
+            this.txtEmail.Text = "Email";
+ main
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+ feature/modify-form
+            this.Controls.Add(this.label1);
+
+            this.Controls.Add(this.txtEmail);
+ main
             this.Controls.Add(this.txtSoDienThoai);
             this.Controls.Add(this.txtHoTen);
             this.Controls.Add(this.btnLuu);
@@ -78,5 +107,10 @@
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.TextBox txtSoDienThoai;
+ feature/modify-form
+        private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.TextBox txtEmail;
+ main
     }
 }
