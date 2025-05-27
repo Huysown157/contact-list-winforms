@@ -28,52 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.txtHoTen = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.btnLuu = new System.Windows.Forms.Button();
+            this.txtHoTen = new System.Windows.Forms.TextBox();
+            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // txtHoTen
-            // 
-            this.txtHoTen.Location = new System.Drawing.Point(226, 70);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(129, 22);
-            this.txtHoTen.TabIndex = 0;
-            this.txtHoTen.Text = "HoTen";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // txtSoDienThoai
-            // 
-            this.txtSoDienThoai.Location = new System.Drawing.Point(226, 108);
-            this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(129, 22);
-            this.txtSoDienThoai.TabIndex = 2;
-            this.txtSoDienThoai.Text = "So Dien Thoai";
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(226, 157);
+            this.btnLuu.Location = new System.Drawing.Point(223, 166);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
-            this.btnLuu.TabIndex = 3;
+            this.btnLuu.Size = new System.Drawing.Size(46, 32);
+            this.btnLuu.TabIndex = 0;
             this.btnLuu.Text = "Luu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            // 
+            // txtHoTen
+            // 
+            this.txtHoTen.Location = new System.Drawing.Point(223, 101);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(100, 22);
+            this.txtHoTen.TabIndex = 1;
+            this.txtHoTen.Text = "Ho Ten";
+            // 
+            // txtSoDienThoai
+            // 
+            this.txtSoDienThoai.Location = new System.Drawing.Point(223, 138);
+            this.txtSoDienThoai.Name = "txtSoDienThoai";
+            this.txtSoDienThoai.Size = new System.Drawing.Size(100, 22);
+            this.txtSoDienThoai.TabIndex = 2;
+            this.txtSoDienThoai.Text = "So Dien Thoai";
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.txtSoDienThoai);
             this.Controls.Add(this.txtHoTen);
+            this.Controls.Add(this.btnLuu);
             this.Name = "AddContactForm";
             this.Text = "AddContactForm";
             this.ResumeLayout(false);
@@ -83,9 +75,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtHoTen;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox txtSoDienThoai;
         private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.TextBox txtHoTen;
+        private System.Windows.Forms.TextBox txtSoDienThoai;
     }
 }
