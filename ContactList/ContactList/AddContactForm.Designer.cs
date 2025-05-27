@@ -31,11 +31,12 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(223, 166);
+            this.btnLuu.Location = new System.Drawing.Point(223, 201);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(46, 32);
             this.btnLuu.TabIndex = 0;
@@ -58,11 +59,20 @@
             this.txtSoDienThoai.TabIndex = 2;
             this.txtSoDienThoai.Text = "So Dien Thoai";
             // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(223, 173);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 3;
+            this.txtEmail.Text = "Email";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtSoDienThoai);
             this.Controls.Add(this.txtHoTen);
             this.Controls.Add(this.btnLuu);
@@ -78,5 +88,6 @@
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.TextBox txtSoDienThoai;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }
