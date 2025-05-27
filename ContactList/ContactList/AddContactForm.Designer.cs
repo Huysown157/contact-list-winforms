@@ -28,77 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.txtHoTen = new System.Windows.Forms.TextBox();
-            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
- feature/modify-form
-            this.label1 = new System.Windows.Forms.Label();
-
-            this.txtEmail = new System.Windows.Forms.TextBox();
-main
             this.SuspendLayout();
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.Location = new System.Drawing.Point(223, 201);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(46, 32);
-            this.btnLuu.TabIndex = 0;
-            this.btnLuu.Text = "Luu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            // 
-            // txtHoTen
-            // 
-            this.txtHoTen.Location = new System.Drawing.Point(223, 101);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(100, 22);
-            this.txtHoTen.TabIndex = 1;
-            this.txtHoTen.Text = "Ho Ten";
-            // 
-            // txtSoDienThoai
-            // 
-            this.txtSoDienThoai.Location = new System.Drawing.Point(223, 138);
-            this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(100, 22);
-            this.txtSoDienThoai.TabIndex = 2;
-            this.txtSoDienThoai.Text = "So Dien Thoai";
-            // 
- feature/modify-form
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(220, 70);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Thong Tin Bo Sung";
-
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(223, 173);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 22);
-            this.txtEmail.TabIndex = 3;
-            this.txtEmail.Text = "Email";
- main
             // 
             // AddContactForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
- feature/modify-form
-            this.Controls.Add(this.label1);
-
-            this.Controls.Add(this.txtEmail);
- main
-            this.Controls.Add(this.txtSoDienThoai);
-            this.Controls.Add(this.txtHoTen);
-            this.Controls.Add(this.btnLuu);
+            this.ClientSize = new System.Drawing.Size(282, 253);
             this.Name = "AddContactForm";
-            this.Text = "AddContactForm";
+            this.Load += new System.EventHandler(this.AddContactForm_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

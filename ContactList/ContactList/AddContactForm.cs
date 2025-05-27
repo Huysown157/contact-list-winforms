@@ -16,5 +16,10 @@ namespace ContactList
         {
             InitializeComponent();
         }
+
+        private void AddContactForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
